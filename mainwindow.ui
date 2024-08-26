@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="View_Ting">
+       <attribute name="title">
+        <string>听牌判断</string>
+       </attribute>
+       <widget class="QGroupBox" name="Mahjongs_group">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>240</y>
+          <width>651</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>点击输入</string>
+        </property>
+        <widget class="QFrame" name="frame">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>40</y>
+           <width>531</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="Input_01">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_02">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>10</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_03">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>10</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_04">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>10</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_05">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>10</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_06">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_07">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>40</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_08">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>40</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_09">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>40</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="Input_10">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>40</y>
+            <width>80</width>
+            <height>18</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QRadioButton" name="switch_TONG">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>40</y>
+           <width>73</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>筒牌</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="switch_TIAO">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>73</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>条牌</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="switch_WAN">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>73</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>万牌</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="switch_FENG">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>73</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>风牌</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="Input_group">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>691</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>输入手牌</string>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>31</x>
+           <y>36</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,10,1,2">
+          <item>
+           <widget class="QLabel" name="TEXT_MAINMAH">
+            <property name="text">
+             <string>手牌</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="view_mainmahjong"/>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="clear_mainmahjong">
+            <property name="text">
+             <string>清除手牌</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>31</x>
+           <y>81</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,10,1,2">
+          <item>
+           <widget class="QLabel" name="TEXT_SIDEMAH">
+            <property name="text">
+             <string>副露</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="view_sidemahjong"/>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="clear_sidemahjong">
+            <property name="text">
+             <string>清除副露</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>31</x>
+           <y>126</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,1,10,1,2">
+          <item>
+           <widget class="QLabel" name="TEXT_ANKANGMAH">
+            <property name="text">
+             <string>暗杠</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="view_ankangmahjong"/>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="clear_ankangmahjong">
+            <property name="text">
+             <string>清除暗杠</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="start_ting">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>410</y>
+          <width>80</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>听牌判断</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="clear_all">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>410</y>
+          <width>80</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>清除输入</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="View_Hu">
+       <attribute name="title">
+        <string>和牌计算</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
