@@ -342,6 +342,10 @@ void MainWindow::input_side_mahjong(int button_input){
             ok = true;
         }
 
+        if(Now_mahjong.count_num[temp_side[0].get_ID()] >= 4 || Now_mahjong.count_num[temp_side[1].get_ID()] >= 4 ||Now_mahjong.count_num[temp_side[2].get_ID()] >= 4){
+            ok = false;
+        }
+
         if(ok){
             temp_num_sideMahjong = 0;
             Now_mahjong.add_mahjong_side(temp_side);
